@@ -6,4 +6,7 @@ for my project
 * design the website and app for campus
 
 ####Cite
+[BaiDu] http://www.baidu.com
+
+####Cite
 > This is a cite
