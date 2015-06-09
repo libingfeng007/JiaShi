@@ -18,10 +18,10 @@ for my project
 [baidu](http://www.baidu.com)
 
 ####Code        
-			public int main()
-			{
-			return 0;
-			}
+		public int main()
+		{
+		return 0;
+		}
 
 
 ####Cite
