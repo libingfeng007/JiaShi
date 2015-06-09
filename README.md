@@ -4,7 +4,7 @@ for my project
 ### Description
 
 ###Unorder List
-+ design the website and app for campus
+* design the website and app for campus
 
 ###Order List
 1. design the website and app for campus
