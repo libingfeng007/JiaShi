@@ -1,19 +1,6 @@
 ### 校园报名网
 >Created by Lee
 
-####Href
-[baidu](http://www.baidu.com)
-
-####Code        
-		public int main()
-		{
-		return 0;
-		}
-
-
-####Cite
-> This is a cite
-
 ####Git不熟悉的可以先看下下面几个链接
 
 - http://git.oschina.net/oschina/git-osc/wikis/帮助#ssh-keys
