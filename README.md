@@ -1,8 +1,6 @@
 ### 校园报名网
 >Created by Lee
 
-
-
 ####Href
 [baidu](http://www.baidu.com)
 
