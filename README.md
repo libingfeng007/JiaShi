@@ -19,6 +19,8 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 - git remote add origin http://git.oschina.net/xxx/xxx.git // 设置提交的仓库，设置一次就好了
 - git remote rm origin // 如果上一条命令的仓库写错了或者要更换仓库，用这一条命令产出设置，然后再次执行上面一条内容
 - git push origin master // 提交到master分支
+- git commit是将本地修改过的文件提交到本地库中。
+- git push是将本地库中的最新信息发送给远程库。
 
 ####Git分支管理
 
