@@ -1,15 +1,5 @@
-# 校园报名网
+# 校园活动平台
 ***
-####Git不熟悉的可以先看下下面几个链接
-
-- http://git.oschina.net/oschina/git-osc/wikis/帮助#ssh-keys
-
-- http://my.oschina.net/dxqr/blog/134811
-
-- http://my.oschina.net/kzhou/blog/150290
-
-####系统学习Git的话看廖雪峰的git教学比较好 
-http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
 
 ####Git基本命令
 - git init // 在当前目录建立git仓库
