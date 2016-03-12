@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		9BA2A83F1C9490F100FD716E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A83E1C9490F100FD716E /* main.m */; };
 		9BA2A8421C9490F100FD716E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8411C9490F100FD716E /* AppDelegate.m */; };
-		9BA2A8451C9490F100FD716E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8441C9490F100FD716E /* ViewController.m */; };
 		9BA2A8481C9490F100FD716E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2A8461C9490F100FD716E /* Main.storyboard */; };
 		9BA2A84B1C9490F100FD716E /* JiaShi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8491C9490F100FD716E /* JiaShi.xcdatamodeld */; };
 		9BA2A84D1C9490F100FD716E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2A84C1C9490F100FD716E /* Assets.xcassets */; };
 		9BA2A8501C9490F100FD716E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2A84E1C9490F100FD716E /* LaunchScreen.storyboard */; };
 		9BA2A85B1C9490F100FD716E /* JiaShiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A85A1C9490F100FD716E /* JiaShiTests.m */; };
 		9BA2A8661C9490F100FD716E /* JiaShiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8651C9490F100FD716E /* JiaShiUITests.m */; };
+		9BA2A8861C94946800FD716E /* JiaShiHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8851C94946800FD716E /* JiaShiHomeController.m */; };
+		9BA2A8891C94947800FD716E /* JiaShiMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8881C94947800FD716E /* JiaShiMineController.m */; };
+		9BA2A88F1C94949B00FD716E /* JiaShiHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A88E1C94949B00FD716E /* JiaShiHomeView.m */; };
+		9BA2A8921C9494A800FD716E /* JiaShiMineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8911C9494A800FD716E /* JiaShiMineView.m */; };
+		9BA2A8991C94953C00FD716E /* JiaShiTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2A8981C94953C00FD716E /* JiaShiTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +44,6 @@
 		9BA2A83E1C9490F100FD716E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BA2A8401C9490F100FD716E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BA2A8411C9490F100FD716E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BA2A8431C9490F100FD716E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9BA2A8441C9490F100FD716E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9BA2A8471C9490F100FD716E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA2A84A1C9490F100FD716E /* JiaShi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JiaShi.xcdatamodel; sourceTree = "<group>"; };
 		9BA2A84C1C9490F100FD716E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,16 @@
 		9BA2A8671C9490F100FD716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA2A8731C94915500FD716E /* APPHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPHeader.pch; sourceTree = "<group>"; };
 		9BA2A8741C94916C00FD716E /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		9BA2A8841C94946800FD716E /* JiaShiHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaShiHomeController.h; sourceTree = "<group>"; };
+		9BA2A8851C94946800FD716E /* JiaShiHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaShiHomeController.m; sourceTree = "<group>"; };
+		9BA2A8871C94947800FD716E /* JiaShiMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaShiMineController.h; sourceTree = "<group>"; };
+		9BA2A8881C94947800FD716E /* JiaShiMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaShiMineController.m; sourceTree = "<group>"; };
+		9BA2A88D1C94949B00FD716E /* JiaShiHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaShiHomeView.h; sourceTree = "<group>"; };
+		9BA2A88E1C94949B00FD716E /* JiaShiHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaShiHomeView.m; sourceTree = "<group>"; };
+		9BA2A8901C9494A800FD716E /* JiaShiMineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaShiMineView.h; sourceTree = "<group>"; };
+		9BA2A8911C9494A800FD716E /* JiaShiMineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaShiMineView.m; sourceTree = "<group>"; };
+		9BA2A8971C94953C00FD716E /* JiaShiTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaShiTabBarController.h; sourceTree = "<group>"; };
+		9BA2A8981C94953C00FD716E /* JiaShiTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaShiTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +117,8 @@
 		9BA2A83C1C9490F100FD716E /* JiaShi */ = {
 			isa = PBXGroup;
 			children = (
-				9BA2A8401C9490F100FD716E /* AppDelegate.h */,
-				9BA2A8411C9490F100FD716E /* AppDelegate.m */,
-				9BA2A8431C9490F100FD716E /* ViewController.h */,
-				9BA2A8441C9490F100FD716E /* ViewController.m */,
+				9BA2A8751C9492D700FD716E /* JiaShiClasses */,
+				9BA2A8771C94930D00FD716E /* JiaShiResources */,
 				9BA2A83D1C9490F100FD716E /* Supporting Files */,
 			);
 			path = JiaShi;
@@ -145,6 +155,168 @@
 				9BA2A8671C9490F100FD716E /* Info.plist */,
 			);
 			path = JiaShiUITests;
+			sourceTree = "<group>";
+		};
+		9BA2A8751C9492D700FD716E /* JiaShiClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8761C94930200FD716E /* JiaShiItems */,
+			);
+			name = JiaShiClasses;
+			sourceTree = "<group>";
+		};
+		9BA2A8761C94930200FD716E /* JiaShiItems */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8781C94932900FD716E /* JiaShiMain */,
+				9BA2A8791C94934000FD716E /* JiaShiHome */,
+				9BA2A87A1C94934600FD716E /* JiaShiMine */,
+				9BA2A87B1C94936300FD716E /* JiaShiLibs */,
+				9BA2A87C1C94936A00FD716E /* JiaShiTools */,
+				9BA2A87D1C94937000FD716E /* JiaShiCategories */,
+			);
+			name = JiaShiItems;
+			sourceTree = "<group>";
+		};
+		9BA2A8771C94930D00FD716E /* JiaShiResources */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8961C9494EB00FD716E /* JiaShiImages */,
+				9BA2A8951C9494DF00FD716E /* JiaShiAudios */,
+				9BA2A8931C9494C000FD716E /* JiaShiVideos */,
+				9BA2A8941C9494D200FD716E /* JiaShiPlists */,
+			);
+			name = JiaShiResources;
+			sourceTree = "<group>";
+		};
+		9BA2A8781C94932900FD716E /* JiaShiMain */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8401C9490F100FD716E /* AppDelegate.h */,
+				9BA2A8411C9490F100FD716E /* AppDelegate.m */,
+				9BA2A8971C94953C00FD716E /* JiaShiTabBarController.h */,
+				9BA2A8981C94953C00FD716E /* JiaShiTabBarController.m */,
+			);
+			name = JiaShiMain;
+			sourceTree = "<group>";
+		};
+		9BA2A8791C94934000FD716E /* JiaShiHome */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A87E1C94940E00FD716E /* Model */,
+				9BA2A87F1C94941400FD716E /* View */,
+				9BA2A8801C94942800FD716E /* Controller */,
+			);
+			name = JiaShiHome;
+			sourceTree = "<group>";
+		};
+		9BA2A87A1C94934600FD716E /* JiaShiMine */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8831C94945000FD716E /* Model */,
+				9BA2A8821C94944B00FD716E /* View */,
+				9BA2A8811C94943700FD716E /* Controller */,
+			);
+			name = JiaShiMine;
+			sourceTree = "<group>";
+		};
+		9BA2A87B1C94936300FD716E /* JiaShiLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JiaShiLibs;
+			sourceTree = "<group>";
+		};
+		9BA2A87C1C94936A00FD716E /* JiaShiTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JiaShiTools;
+			sourceTree = "<group>";
+		};
+		9BA2A87D1C94937000FD716E /* JiaShiCategories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JiaShiCategories;
+			sourceTree = "<group>";
+		};
+		9BA2A87E1C94940E00FD716E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9BA2A87F1C94941400FD716E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A88D1C94949B00FD716E /* JiaShiHomeView.h */,
+				9BA2A88E1C94949B00FD716E /* JiaShiHomeView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9BA2A8801C94942800FD716E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8841C94946800FD716E /* JiaShiHomeController.h */,
+				9BA2A8851C94946800FD716E /* JiaShiHomeController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9BA2A8811C94943700FD716E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8871C94947800FD716E /* JiaShiMineController.h */,
+				9BA2A8881C94947800FD716E /* JiaShiMineController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9BA2A8821C94944B00FD716E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2A8901C9494A800FD716E /* JiaShiMineView.h */,
+				9BA2A8911C9494A800FD716E /* JiaShiMineView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9BA2A8831C94945000FD716E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9BA2A8931C9494C000FD716E /* JiaShiVideos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JiaShiVideos;
+			sourceTree = "<group>";
+		};
+		9BA2A8941C9494D200FD716E /* JiaShiPlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JiaShiPlists;
+			sourceTree = "<group>";
+		};
+		9BA2A8951C9494DF00FD716E /* JiaShiAudios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JiaShiAudios;
+			sourceTree = "<group>";
+		};
+		9BA2A8961C9494EB00FD716E /* JiaShiImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JiaShiImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,10 +452,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA2A8451C9490F100FD716E /* ViewController.m in Sources */,
+				9BA2A8891C94947800FD716E /* JiaShiMineController.m in Sources */,
 				9BA2A8421C9490F100FD716E /* AppDelegate.m in Sources */,
 				9BA2A83F1C9490F100FD716E /* main.m in Sources */,
+				9BA2A8991C94953C00FD716E /* JiaShiTabBarController.m in Sources */,
+				9BA2A8861C94946800FD716E /* JiaShiHomeController.m in Sources */,
+				9BA2A8921C9494A800FD716E /* JiaShiMineView.m in Sources */,
 				9BA2A84B1C9490F100FD716E /* JiaShi.xcdatamodeld in Sources */,
+				9BA2A88F1C94949B00FD716E /* JiaShiHomeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

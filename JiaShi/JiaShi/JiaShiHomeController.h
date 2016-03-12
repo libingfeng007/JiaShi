@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JiaShiHomeController.h
 //  JiaShi
 //
 //  Created by 李炳峰 on 3/13/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JiaShiHomeController : UIViewController
 
 @end
-

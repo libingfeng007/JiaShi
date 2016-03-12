@@ -8,7 +8,11 @@
 
 #import "AppDelegate.h"
 
+#import "JiaShiTabBarController.h"
+
 @interface AppDelegate ()
+
+@property(nonatomic,strong) JiaShiTabBarController *mTabBarController;
 
 @end
 
@@ -16,7 +20,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    
+    _mTabBarController = [[JiaShiTabBarController alloc] init];
+    
+    
+    self.window.rootViewController = _mTabBarController;
+    
+    [self.window makeKeyWindow];
+    
     return YES;
 }
 
