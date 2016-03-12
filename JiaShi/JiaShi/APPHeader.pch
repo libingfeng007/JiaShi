@@ -1,0 +1,15 @@
+//
+//  APPHeader.pch
+//  JiaShi
+//
+//  Created by 李炳峰 on 3/13/16.
+//  Copyright © 2016 李炳峰. All rights reserved.
+//
+
+#ifndef APPHeader_pch
+#define APPHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* APPHeader_pch */
